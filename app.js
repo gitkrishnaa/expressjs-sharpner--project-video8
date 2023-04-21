@@ -21,6 +21,6 @@ app.use(shopRoutes);
 
 app.use(errorController.get404);
 
-app.listen(3000,()=>{
-    console.log("server port number is 3000 link is http://localhost:3000/")
+app.listen(4000,()=>{
+    console.log("server port number is 4000 link is http://localhost:4000/")
 });
